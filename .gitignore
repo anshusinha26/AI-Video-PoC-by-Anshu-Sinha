@@ -3,3 +3,5 @@ __pycache__/
 Azure OpenAI API Key - Internshala.pdf
 secrets-422209-76e74a3f96ab.json
 .streamlit/
+.DS_Store
+.idea/
