@@ -1,7 +1,7 @@
 venv/
 __pycache__/
 Azure OpenAI API Key - Internshala.pdf
-secrets-422209-76e74a3f96ab.json
+gcp_credentials.json
 .streamlit/
 .DS_Store
 .idea/
