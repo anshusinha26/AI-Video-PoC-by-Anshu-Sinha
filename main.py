@@ -9,11 +9,12 @@ import soundfile as sf
 from moviepy.video.fx import all as vfx
 
 # Google Cloud credentials
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = st.secrets["gcp_credentials"]
+gcp_credentials = st.secrets["gcp"]["credentials"]
 
 # Azure OpenAI credentials
+azure_openai_api_key = st.secrets["azure"]["openai_api_key"]
 client = AzureOpenAI(
-    api_key=st.secrets["azure_openai_api_key"],
+    api_key=azure_openai_api_key,
     api_version="2024-08-01-preview",
     azure_endpoint="https://internshala.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-08-01-preview"
 )
