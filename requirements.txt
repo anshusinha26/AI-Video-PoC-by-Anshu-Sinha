@@ -63,7 +63,7 @@ protobuf==5.28.2
 pyarrow==17.0.0
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
-pycairo @ file:///private/tmp/py3cairo-20231022-6959-nbqbp3/pycairo-1.25.1
+pycairo==1.25.1
 pycparser==2.22
 pydantic==2.9.2
 pydantic_core==2.23.4
